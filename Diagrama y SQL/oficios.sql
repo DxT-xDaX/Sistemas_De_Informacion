@@ -5,8 +5,8 @@ SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,N
 -- -----------------------------------------------------
 -- Schema sistemas_info
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `sistemas_info` DEFAULT CHARACTER SET utf8 ;
-USE `sistemas_info` ;
+CREATE SCHEMA IF NOT EXISTS `oficios` DEFAULT CHARACTER SET utf8 ;
+USE `oficios` ;
 
 -- Tabla de Personas
 CREATE TABLE personas (
@@ -26,3 +26,4 @@ CREATE TABLE oficios (
     `hash` VARCHAR(255) NOT NULL,
   PRIMARY KEY (`num_oficio`)
 );
+
